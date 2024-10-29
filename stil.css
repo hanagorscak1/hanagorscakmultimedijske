@@ -2,24 +2,79 @@ h1 {
 	font-family: "Playwrite GB S", cursive;
     font-weight: <weight>;
     font-style: normal;
-	color: RebeccaPurple;
+	color: SaddleBrown;
+	background-color: rgb(222, 184, 135);
+	width: 700px;
+	line-height: 60px;
+	padding: 10px;
+	text-align:start;
+	text-shadow: 2px 2px 1px wheat;
+}
 
-}
-h2 {
-	 font-family: "Arima", system-ui;
-	 font-weight: <weight>;
-	 font-style: normal;
-	 color: dimgray;
-}
+
 p {
 	font-family: Constantia, "Lucida Bright", "DeyaVu Serif", Georgia, "Serif";
-	color: DarkSlateGray;
+	color: Siena;
 	font-size: 16px;
 	line-height: 18px;
-    width: 600px;
-    background-color: WhiteSmoke;
+    width: 660px;
+    background-color: Wheat;
+    padding: 30px;
+	text-align: start;
+}
+
+
+.pozadina {
+	background-image: url("https://e0.pxfuel.com/wallpapers/471/38/desktop-wallpaper-light-brown-fluid-texture-abstract-phone-background-nunny-abstract-abstract-aesthetic-pastel-brown-phone.jpg")
+}
+
+
+span {
+	color: Crimson;
+}
+
+
+
+h2 {
+	font-family: Constantia, "Lucida Bright", "DeyaVu Serif", Georgia, "Serif";
+	color: Siena;
+	font-size: 16px;
+	line-height: 18px;
+    width: 300px;
+    background-color: rgb(222, 184, 135, 0.7);
     padding: 30px;
 }
-.pozadina {
-	background-image: url("https://img.freepik.com/free-photo/grungy-gray-marble-textured-background_53876-108405.jpg?size=626&ext=jpg&ga=GA1.1.2113030492.1729382400&semt=ais_hybrid")
+
+
+ul {
+		padding:5px;   
+		width: 715px;
+		list-style-type: circle;
+		background-color: rgb(222, 184, 135, 0.7);
+		display: block-size;
+		text-align: start;
+		list-style-position: inside;
+	} 
+
+
+ol {
+	list-style-type: decimal;
+    background-color: rgb(222, 184, 135, 0.7);
+	padding:30px;
+	text-align: start;
+	display: block-size;
+}
+
+
+li {
+	
+    line-height: 150%;
+}
+ 
+ 
+img {
+	display: grid;
+	float: right;
+	height: 460px;
+	width:660px;
 }
